@@ -3,8 +3,7 @@ import type { ReactNode } from "react";
 import { Check, ChevronsDown, Gift, Minus, Plus, TriangleAlert } from "lucide-react";
 
 const IMG = "/assets";
-// TODO: trocar pelo link de checkout desta oferta (enquanto isso, os botões levam até a oferta).
-const CHECKOUT_URL = "#oferta";
+const CHECKOUT_URL = "https://pay.hotmart.com/H108156880H?checkoutMode=10";
 const display = "font-display";
 
 /* ------------------------------------------------------------------ */
