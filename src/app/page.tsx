@@ -383,9 +383,12 @@ export default function VeterinariaPage() {
         {/* 1 · HERO */}
         <ThemeSection className="pt-8! sm:pt-12!">
           <Container className="flex flex-col items-center text-center">
-            <h1 className={`${display} px-2 text-[30px] font-extrabold leading-[1.18] tracking-tight sm:text-5xl md:text-6xl`}>
-              Estudia veterinaria <Mark>de forma visual</Mark> y aprende <Mark>en minutos</Mark> lo que antes te tomaba
-              horas.
+            {/* Nome do produto como headline: grande e com peso máximo para ter presença */}
+            <h1 className={`${display} text-[42px] font-black leading-[1.05] tracking-tight sm:text-6xl md:text-7xl`}>
+              <span className="block text-[64px] leading-none sm:text-8xl md:text-9xl">
+                <Mark>300</Mark>
+              </span>
+              Mapas Mentales de <Mark>Medicina Veterinaria</Mark>
             </h1>
 
             <MainMockup priority className="mt-7" />
